@@ -1,5 +1,6 @@
 from turtle import *
-def damier(nbcases):
+def damier():
+    nbcases = int(input("Entrez un nombre paire de colonnes"))
     if nbcases%2 != 0:
         print('Entrez un nombre de lignes paire.')
         return
@@ -28,3 +29,4 @@ def damier(nbcases):
             left(90)
         else:
             right(180)
+damier()
