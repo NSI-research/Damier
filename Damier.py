@@ -1,4 +1,4 @@
-from verificator import *
+from verificator import intVerif
 from turtle import *
 import time
 
