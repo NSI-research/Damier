@@ -27,6 +27,6 @@ if reponse is not False:
             left(90)
             casepaire += 1
     else:
-        print("pas pair")
+        print("Le nombre n'est pas pair !")
 ht()
 time.sleep(30)
