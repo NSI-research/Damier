@@ -1,7 +1,7 @@
 from turtle import *
 def damier(nbcases):
     if nbcases%2 != 0:
-        print('entrez un nombre de lignes paire')
+        print('Entrez un nombre de lignes paire.')
         return
     Lc = 40
     up()
