@@ -1,18 +1,7 @@
 from verificator import intVerif
 from turtle import *
-import time
 
-Valid = False
-while Valid is False:
-    reponse = intVerif("\nDonnez un nombre pair : ")
-    if reponse < 0:
-        print("\nVous avez renseigner un nombre négatif, merci de réhitérer.")
-    elif reponse % 2 != 0:
-        print("\nCe nombre n'est pas pair.")
-    elif reponse is False:
-        print("\nLe nombre que vous avez renseigné est invalide. (décimal, texte, etc...)")
-    else:
-        Valid = True
+reponse = intVerif("\nDonnez un nombre pair : ", peer=True, pos=True, nul=False)
 
 color("black")
 speed(1000)
